@@ -79,4 +79,4 @@ Once you've verified that the embeddings and content have been successfully adde
 
 Frontend of this repo is inspired by [langchain-chat-nextjs](https://github.com/zahidkhawaja/langchain-chat-nextjs)
 
-This repo uses in-depth Notion guides from the [website](https://thomasjfrank.com/) of productivity expert, Thomas Frank.
+This repo uses in-depth Google Analytics guides from the [website](https://www.analyticsmania.com/) of analytics expert, Julius Fedorovicius.
