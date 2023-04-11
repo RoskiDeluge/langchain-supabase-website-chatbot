@@ -17,7 +17,8 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi there its Tom! What would like to learn about notion?',
+        message:
+          'Hi there its Julius! What would like to learn about Google Analytics?',
         type: 'apiMessage',
       },
     ],
@@ -124,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Thomas Frank Notion Guide ChatBot
+            Julius Fedorovicius Analyticsmania ChatBot
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -135,7 +136,7 @@ export default function Home() {
                   if (message.type === 'apiMessage') {
                     icon = (
                       <Image
-                        src="/Thomas-Frank-Avatar.jpg"
+                        src="/jfed.jpg"
                         alt="AI"
                         width="40"
                         height="40"
@@ -189,7 +190,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'How does notion api work?'
+                        : 'How does Google Tag Manager work?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
